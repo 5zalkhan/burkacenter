@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+#navbar{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding:.5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color: lightgray;
+}
+
+
+#navbarSupportedContent a{
+       color:black;
+       font-size: 20px;
+       font-weight: 300;
+}
+.navbar a:hover{
+       border-bottom: 3px solid green;
+}
+
+
+
+.navbar .navbar-brand{
+      color:green;
+      font-weight: 400;
+}
+section{
+    min-height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  #conclusion{
+         background: url("c:/portfolio/image1/hero.jpg");
+         flex-direction: column;
+}
+  
+  #conclusion h1{
+      color:white;
+      font-size: 40px;
+      font-weight: bold;
+  }
+  #conclusion h6{
+        color:white;
+        font-size: 30px;
+        font-weight: bolder;
+  }
+  #conclusion p{
+      color:antiquewhite;
+      font-size: 24px;
+  }
+  #contact{
+       background-color: black;
+  }
+  #contact h1{
+    color:white;
+   text-align: center;
+   margin-top: 6px;
+}
+#contact img{
+ width:280px;
+ height:300px;
+ border-radius:8px;
+ margin-left: 65px;
+ 
+
+    
+}
+
+#contact input{
+      height:30px;
+      width:300px;
+      display: flex;
+      flex-direction: coloumn;
+      margin-top: 10px;
+}
+
+#contact::placeholder{
+color:black;
+text-align: center;
+}
+#contact.form{
+    height:200px;
+    width:350px;
+    border:white;
+}
+button{
+ width:100px;
+ border-radius: 10px;  
+ padding: 5px;
+ background-color: red;
+ color:white;
+  
+}
+button:hover{
+      background-color: brown;
+}
+
+
+.icons{
+ text-align: center;
+}
+.icons h3{
+color:white;
+text-align: center;
+}
+.icons a i{
+      
+ font-size: 35px;
+ padding: 10px;
+ color:cyan;
+}
+.icons a i:hover{
+transform: scale(1.50);
+}
+
+
+#contact p{
+     color:white;
+     font-size: 15px;
+     text-align: center;
+}
+
+  #footer{
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+#footer div{
+       
+          font-size: 23px;
+          color:lightgreen;
+          list-style: none;
+}
+#footer div li{
+          color:white;
+          font-size: 16px;
+
+}
+#footer a{
+          font-size: 35px;
+          color:white;
+}
+#footer p{
+          margin-top:200px;
+          color:white;
+          font-size: 14px;
+}

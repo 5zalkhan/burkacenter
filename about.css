@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+#navbar{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding:.5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color: lightgray;
+}
+
+
+#navbarSupportedContent a{
+       color:black;
+       font-size: 20px;
+       font-weight: 300;
+}
+.navbar a:hover{
+       border-bottom: 3px solid green;
+}
+
+
+
+.navbar .navbar-brand{
+      color:green;
+      font-weight: 400;
+}
+
+section{
+         min-height:100vh;
+         width:100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+}
+
+#home{
+    background-color:burlywood;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+#home h1{
+     font-size:35px;
+     color:black;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-left: 20px;
+     letter-spacing: 2px;
+     
+}
+span{
+    color:brown;
+    font-size: 25px;
+}
+#home h2{
+       color:black;
+       font-weight: bold;
+       margin-left: 25px;
+       font-size: 20px;
+
+}
+
+#home a{
+        font-size: 30px;
+        color:cyan;
+        margin-left: 20px;
+}
+#home a i:hover{
+    transform: scale(1.50);
+  }                         
+
+#home img{
+        width:280px;
+        height:320px;
+        border:none;
+
+        border-radius:10px;
+        
+        
+        margin-left: 65px;
+        
+}
+
+
+#about{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+}
+#about h1{
+       font-size: 30px;
+       font-weight: 500;
+       letter-spacing: 3px;
+       margin-left:30px;
+}
+#about img{
+ width:250px;
+ height:250px;
+background:wheat;
+ margin-left: 65px;
+ border:5px solid white;
+border-radius: 200px;
+    
+}
+
+#about p{
+       margin-left:30px;
+       margin-right:15px;
+       color:black;
+}
+
+#design .card{
+    
+    margin-left: 4px;
+    background-color:bisque;
+    
+}
+#design .card h2{
+        font-size: 17px;
+}
+#design .card img{
+  height:160px;
+}
+
+#footer{
+    background-color: black;
+    width:100%;
+    min-height: 100vh;
+}
+
+
+#footer div{
+       
+          font-size: 23px;
+          color:lightgreen;
+          list-style: none;
+}
+#footer div li{
+          color:white;
+          font-size: 16px;
+
+}
+#footer a{
+          font-size: 35px;
+          color:white;          
+}
+#footer p{
+          margin-top:200px;
+          color:white;
+          font-size: 14px;
+}
