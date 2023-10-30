@@ -213,3 +213,14 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
           color:white;
           font-size: 14px;
 }
+  @media screen and (max-width:600px){
+       #footer div{
+                    margin-right:124px;
+                    color:yellow;
+       }
+       #footer div h2{
+                      margin-right:100px;
+                     margin-left:80px;
+       }
+  }
+    
