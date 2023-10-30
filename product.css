@@ -215,7 +215,7 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
   @media screen and (max-width:600px){
        #footer div{
-                    margin-right:124px;
+                    margin-right:120px;
                     color:yellow;
        }
        
