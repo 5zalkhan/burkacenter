@@ -101,7 +101,9 @@ section{
            min-height: 100vh;
 }
 
-
+#footer div h2{
+       color:yellow;
+}
        #footer div{
               
                  font-size: 23px;
@@ -122,3 +124,13 @@ section{
                  color:white;
                  font-size: 14px;
        }
+@media screen and (max-width:600px){
+       #footer div{
+                    margin-right:124px;
+                    color:yellow;
+       }
+       #footer div h2{
+                      margin-right: 125px;
+       }
+  }
+    
